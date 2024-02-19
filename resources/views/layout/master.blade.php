@@ -58,43 +58,9 @@
         <![endif]-->
 		
 		<!-- top-area Start -->
-		<header class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
-
-			        <div class="container">
-
-			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i>
-			                </button>
-			                <a class="navbar-brand" href="/">Profile</a>
-			            </div><!--/.navbar-header-->
-			            <!-- End Header Navigation -->
-
-			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                <li class=" smooth-menu active"></li>
-			                    <li class=" smooth-menu"><a href="#education">education</a></li>
-			                    <li class="smooth-menu"><a href="#skills">skills</a></li>
-			                    <li class="smooth-menu"><a href="#experience">experience</a></li>
-			                    <li class="smooth-menu"><a href="#profiles">profile</a></li>
-			                    <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
-			                    <li class="smooth-menu"><a href="#clients">clients</a></li>
-			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
-			        </div><!--/.container-->
-			    </nav><!--/nav-->
-			    <!-- End Navigation -->
-			</div><!--/.header-area-->
-
-		    <div class="clearfix"></div>
-
-		</header><!-- /.top-area-->
+		
+		@include('header')
+		
 		<!-- top-area End -->
 	
 		<!--welcome-hero start -->
@@ -103,7 +69,7 @@
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="header-text">
-							<h2>hi <span>,</span> i am <br> Ikhsan <br> Warman <span>.</span>   </h2>
+							<h2>hi <span>,</span>  <br> Ikhsan <br> Warman <span>.</span>   </h2>
 							<p>ui/ux designer and web developer</p>
 							<a href="https://drive.google.com/file/d/1Z15Bu72Q12Oej_vUwy69vWb_WOr4kJcE/view?usp=sharing" download>download resume</a>
 						</div><!--/.header-text-->
@@ -140,7 +106,7 @@
 											<h3>phone</h3>
 											<p>081369758958</p>
 										</div>
-									</div>
+									</div>exit
 									<div class="col-sm-4">
 										<div class="single-about-add-info">
 											<h3>email</h3>
