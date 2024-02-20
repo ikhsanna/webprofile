@@ -59,43 +59,7 @@
 		
 		<!-- top-area Start -->
 
-		<header class="top-area">
-    <div class="header-area">
-        <!-- Start Navigation -->
-        <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
-
-            <div class="container">
-
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="/">Profile</a>
-                </div><!--/.navbar-header-->
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                    <li class=" smooth-menu active"></li>
-                        <li class=" smooth-menu"><a href="#education">education</a></li>
-                        <li class="smooth-menu"><a href="#skills">skills</a></li>
-                        <li class="smooth-menu"><a href="#experience">experience</a></li>
-                        <li class="smooth-menu"><a href="#profiles">profile</a></li>
-                        <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
-                        
-                        <li class="smooth-menu"><a href="#contact">contact</a></li>
-                    </ul><!--/.nav -->
-                </div><!-- /.navbar-collapse -->
-            </div><!--/.container-->
-        </nav><!--/nav-->
-        <!-- End Navigation -->
-    </div><!--/.header-area-->
-
-    <div class="clearfix"></div>
-
-</header><!-- /.top-area-->
+		@include('layout.head')
 		
 		<!-- top-area End -->
 	
@@ -105,7 +69,7 @@
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="header-text">
-							<h2>hi <span>,</span>  <br> Ikhsan <br> Warman <span>.</span>   </h2>
+							<h2>hi <span>, im</span>  <br> Ikhsan <br> Warman <span>.</span>   </h2>
 							<p>ui/ux designer and web developer</p>
 							<a href="https://drive.google.com/file/d/1Z15Bu72Q12Oej_vUwy69vWb_WOr4kJcE/view?usp=sharing" download>download resume</a>
 						</div><!--/.header-text-->
@@ -117,143 +81,35 @@
 		<!--welcome-hero end -->
 
 		<!--about start -->
-		<section id="about" class="about">
-			<div class="section-heading text-center">
-				<h2>about me</h2>
-			</div>
-			<div class="container">
-				<div class="about-content">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="single-about-txt">
-								<h3>
-									I am a Passionate in UI/UX Designer and Web developer.
-								</h3>
-								<p>
-									As a recent graduate with a passion for web development, I am excited to embark on a career where I can
-                                    apply and expand my skills. My academic background in Informatics engineering has given me foundation in
-                                    programming and web technologies. Proficient in an assortment of technologies, including HTML and CSS,
-                                    Java, Python, Laravel, PHP, and MySQL. Able to effectively self-manage during independent projects, as
-                                    well as collaborate in a team setting.
-								</p>
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>phone</h3>
-											<p>081369758958</p>
-										</div>
-									</div>exit
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>email</h3>
-											<p>ikhsanwarman</p>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>website</h3>
-											<p>www.brownsine.com</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-offset-1 col-sm-5">
-							<div class="single-about-img">
-								<img src="assets/images/about/profile_image.jpg" alt="profile_image">
-								<div class="about-list-icon">
-									<ul>
-										<li>
-											<a href="#">
-												<i  class="fa fa-facebook" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										<li>
-											<a href="#">
-												<i  class="fa fa-dribbble" aria-hidden="true"></i>
-											</a>
-											
-										</li><!-- / li -->
-										<li>
-											<a href="#">
-												<i  class="fa fa-twitter" aria-hidden="true"></i>
-											</a>
-											
-										</li><!-- / li -->
-										<li>
-											<a href="#">
-												<i  class="fa fa-linkedin" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										<li>
-											<a href="#">
-												<i  class="fa fa-instagram" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										
-										
-									</ul><!-- / ul -->
-								</div><!-- /.about-list-icon -->
-
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section><!--/.about-->
+		@include('/about')
 		<!--about end -->
 		
 		<!--education start -->
-		
-		{{-- @include('/education') --}}
-
+		@include('/education')
 		<!--education end -->
 
 		<!--skills start -->
-		
+		@include('/skills')
 		<!--skills end -->
 
 		<!--experience start -->
-		
-		{{-- @section('/experience') --}}
-
+		@include('/experience')
 		<!--experience end -->
 
 		<!--profiles start -->
-		
+		@include('/profile')
 		<!--profiles end -->
 
 		<!--portfolio start -->
-		
+		@include('/portofolio')
 		<!--portfolio end -->
 
-		<!--clients start -->
-		
-		<!--clients end -->
-
 		<!--contact start -->
-		
+		@include('/contact')
 		<!--contact end -->
 
 		<!--footer-copyright start-->
-		<footer id="footer-copyright" class="footer-copyright">
-			<div class="container">
-				<div class="hm-footer-copyright text-center">
-					<p>
-						&copy; copyright yourname. design and developed by <a href="https://www.themesine.com/">themesine</a>
-					</p><!--/p-->
-				</div><!--/.text-center-->
-			</div><!--/.container-->
-
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" ></i>
-				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.footer-copyright-->
+		@include('layout.foot')
 		<!--footer-copyright end-->
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
