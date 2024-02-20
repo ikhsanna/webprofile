@@ -6,10 +6,10 @@
         <div class="education-horizontal-timeline">
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="single-horizontal-timeline">
+                    <div class="single-timeline-box fix">
                         <div class="experience-time">
-                            <h2>2008 - 2010</h2>
-                            <h3>master <span>of </span> computer science</h3>
+                            <h2>2017 - 2023</h2>
+                            <h3>Bachelor <span>of </span> computer science</h3>
                         </div><!--/.experience-time-->
                         <div class="timeline-horizontal-border">
                             <i class="fa fa-circle" aria-hidden="true"></i>
@@ -18,20 +18,17 @@
                         <div class="timeline">
                             <div class="timeline-content">
                                 <h4 class="title">
-                                    university of north carolina
+                                    University of Sriwijaya
                                 </h4>
-                                <h5>north carolina, USA</h5>
-                                <p class="description">
-                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-                                </p>
+                                <h5>Indralaya, South Sumatera</h5>
                             </div><!--/.timeline-content-->
                         </div><!--/.timeline-->
                     </div>
                 </div>
-                <div class="col-sm-4">
+                {{-- <div class="col-sm-4">
                     <div class="single-horizontal-timeline">
                         <div class="experience-time">
-                            <h2>2004 - 2008</h2>
+                            <h2>2014 - 2017</h2>
                             <h3>bachelor <span>of </span> computer science</h3>
                         </div><!--/.experience-time-->
                         <div class="timeline-horizontal-border">
@@ -74,7 +71,7 @@
                             </div><!--/.timeline-content-->
                         </div><!--/.timeline-->
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

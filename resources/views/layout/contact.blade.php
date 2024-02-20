@@ -9,6 +9,7 @@
                     <div class="single-contact-box">
                         <div class="contact-form">
                             <form>
+                                @csrf
                                 <div class="row">
                                     <div class="col-sm-6 col-xs-12">
                                         <div class="form-group">
@@ -70,11 +71,11 @@
                         </div><!--/.contact-adress-->
                         <div class="hm-foot-icon">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li><!--/li-->
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li><!--/li-->
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li><!--/li-->
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li><!--/li-->
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li><!--/li-->
+                                <li><a href="https://www.facebook.com/iksan.warman?locale=id_ID" target="_blank"><i class="fa fa-facebook"></i></a></li><!--/li-->
+                                
+                                <li><a href="https://twitter.com/snwrmn_" target="_blank"><i class="fa fa-twitter"></i></a></li><!--/li-->
+                                <li><a href="https://www.linkedin.com/in/ikhsan-warman-24533b14b/" target="_blank"><i class="fa fa-linkedin"></i></a></li><!--/li-->
+                                <li><a href="https://www.instagram.com/ikhsanw_4/" target="_blank"><i class="fa fa-instagram"></i></a></li><!--/li-->
                             </ul><!--/ul-->
                         </div><!--/.hm-foot-icon-->
                     </div><!--/.single-contact-box-->

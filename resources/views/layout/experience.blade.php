@@ -11,8 +11,8 @@
                                 <div class="row">
                                     <div class="col-md-5">
                                         <div class="experience-time text-right">
-                                            <h2>2018 - Present</h2>
-                                            <h3>creative director</h3>
+                                            <h2>2024 - Present</h2>
+                                            <h3>Fullstack Programmer</h3>
                                         </div><!--/.experience-time-->
                                     </div><!--/.col-->
                                     <div class="col-md-offset-1 col-md-5">
@@ -20,11 +20,12 @@
                                             <div class="timeline-content">
                                                 <h4 class="title">
                                                     <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                                    hoplony tech limited
+                                                    Pusri
                                                 </h4>
-                                                <h5>newyork, USA</h5>
+                                                <h5>Palembang, South Sumatera</h5>
                                                 <p class="description">
-                                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+                                                    Mengembangkan Sistem informasi untuk monitoring
+                                                     data karyawan menggunakan framework Larvel
                                                 </p>
                                             </div><!--/.timeline-content-->
                                         </div><!--/.timeline-->
@@ -33,7 +34,7 @@
                             </div><!--/.single-timeline-box-->
                         </li>
 
-                        <li>
+                        {{-- <li>
                             <div class="single-timeline-box fix">
                                 <div class="row">
                                     <div class="col-md-offset-1 col-md-5 experience-time-responsive">
@@ -161,7 +162,7 @@
                                     </div><!--/.col-->
                                 </div>
                             </div><!--/.single-timeline-box-->
-                        </li>
+                        </li> --}}
 
                     </ul>
                 </div><!--.main-timeline-->

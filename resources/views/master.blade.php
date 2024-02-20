@@ -59,7 +59,7 @@
 		
 		<!-- top-area Start -->
 
-		@include('layout/head')
+		@include('layout/base_head')
 		
 		<!-- top-area End -->
 	
@@ -97,7 +97,7 @@
 		<!--experience end -->
 
 		<!--profiles start -->
-		@include('layout/profile')
+		{{-- @include('layout/profile') --}}
 		<!--profiles end -->
 
 		<!--portfolio start -->
@@ -109,7 +109,7 @@
 		<!--contact end -->
 
 		<!--footer-copyright start-->
-		@include('layout/foot')
+		@include('layout/base_foot')
 		<!--footer-copyright end-->
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
