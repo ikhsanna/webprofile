@@ -8,7 +8,7 @@
                 <div class="col-sm-6">
                     <div class="single-about-txt">
                         <h3>
-                            I am a Passionate in UI/UX Designer and Web developer.
+                            I am fullstack Web developer.
                         </h3>
                         <p>
                             As a recent graduate with a passion for web development, I am excited to embark on a career where I can
@@ -33,7 +33,7 @@
                             <div class="col-sm-4">
                                 <div class="single-about-add-info">
                                     <h3>website</h3>
-                                    <p>www.brownsine.com</p>
+                                    <p>www.snwrmn.com</p>
                                 </div>
                             </div>
                         </div>
@@ -45,29 +45,12 @@
                         <div class="about-list-icon">
                             <ul>
                                 <li>
-                                    <a href="#">
-                                        <i  class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                </li><!-- / li -->
-                                <li>
-                                    <a href="#">
-                                        <i  class="fa fa-dribbble" aria-hidden="true"></i>
-                                    </a>
-                                    
-                                </li><!-- / li -->
-                                <li>
-                                    <a href="#">
-                                        <i  class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    
-                                </li><!-- / li -->
-                                <li>
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/ikhsan-warman-24533b14b/" target="_blank">
                                         <i  class="fa fa-linkedin" aria-hidden="true"></i>
                                     </a>
                                 </li><!-- / li -->
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/ikhsanw_4/" target="_blank">
                                         <i  class="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
                                 </li><!-- / li -->

@@ -15,7 +15,7 @@ use App\Http\Controllers\welcomeController;
 */
 
 Route::get('/', function () {
-    return view('layout.master');
+    return view('master');
 });
 Route::get('/landing',[welcomeController::class,'landing']);
 Route::get('/welcome', [welcomeController::class,'index']);

@@ -59,7 +59,7 @@
 		
 		<!-- top-area Start -->
 
-		@include('layout.head')
+		@include('layout/head')
 		
 		<!-- top-area End -->
 	
@@ -70,8 +70,8 @@
 					<div class="col-md-12 text-center">
 						<div class="header-text">
 							<h2>hi <span>, im</span>  <br> Ikhsan <br> Warman <span>.</span>   </h2>
-							<p>ui/ux designer and web developer</p>
-							<a href="https://drive.google.com/file/d/1Z15Bu72Q12Oej_vUwy69vWb_WOr4kJcE/view?usp=sharing" download>download resume</a>
+							<p>web developer</p>
+							<a href="https://drive.google.com/file/d/1Z15Bu72Q12Oej_vUwy69vWb_WOr4kJcE/view?usp=sharing" target="_blank" download>download resume</a>
 						</div><!--/.header-text-->
 					</div><!--/.col-->
 				</div><!-- /.row-->
@@ -81,35 +81,35 @@
 		<!--welcome-hero end -->
 
 		<!--about start -->
-		@include('/about')
+		@include('layout/about')
 		<!--about end -->
 		
 		<!--education start -->
-		@include('/education')
+		@include('layout/education')
 		<!--education end -->
 
 		<!--skills start -->
-		@include('/skills')
+		@include('layout/skills')
 		<!--skills end -->
 
 		<!--experience start -->
-		@include('/experience')
+		@include('layout/experience')
 		<!--experience end -->
 
 		<!--profiles start -->
-		@include('/profile')
+		@include('layout/profile')
 		<!--profiles end -->
 
 		<!--portfolio start -->
-		@include('/portofolio')
+		@include('layout/portofolio')
 		<!--portfolio end -->
 
 		<!--contact start -->
-		@include('/contact')
+		@include('layout/contact')
 		<!--contact end -->
 
 		<!--footer-copyright start-->
-		@include('layout.foot')
+		@include('layout/foot')
 		<!--footer-copyright end-->
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->

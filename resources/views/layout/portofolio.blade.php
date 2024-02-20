@@ -13,7 +13,7 @@
                                 <img src="assets/images/portfolio/p1.jpg" alt="portfolio image"/>
                                 <div class="isotope-overlay">
                                     <a href="#">
-                                        ui/ux design
+                                        Full stack
                                     </a>
                                 </div><!-- /.isotope-overlay -->
                             </div><!-- /.item -->
@@ -21,7 +21,7 @@
                                 <img src="assets/images/portfolio/p2.jpg" alt="portfolio image"/>
                                 <div class="isotope-overlay">
                                     <a href="#">
-                                        ui/ux design
+                                        Full stack
                                     </a>
                                 </div><!-- /.isotope-overlay -->
                             </div><!-- /.item -->
