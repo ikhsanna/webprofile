@@ -8,7 +8,7 @@
                 <div class="col-sm-6">
                     <div class="single-about-txt">
                         <h3>
-                            I am fullstack Web developer.
+                            I am fullstack Web programmer.
                         </h3>
                         <p>
                             As a recent graduate with a passion for web development, I am excited to embark on a career where I can
@@ -54,7 +54,11 @@
                                         <i  class="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
                                 </li><!-- / li -->
-                                
+                                <li>
+                                    <a href="https://www.facebook.com/iksan.warman?locale=id_ID" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li><!-- / li -->
                                 
                             </ul><!-- / ul -->
                         </div><!-- /.about-list-icon -->

@@ -52,7 +52,7 @@
                         <div class="contact-adress">
                             <div class="contact-add-head">
                                 <h3>Ikhsan Warman</h3>
-                                <p>Fullstack developer</p>
+                                <p>Fullstack programmer</p>
                             </div>
                             <div class="contact-add-info">
                                 <div class="single-contact-add-info">

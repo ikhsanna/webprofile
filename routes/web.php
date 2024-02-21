@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\welcomeController;
+use App\Http\Controllers\EmailReceive_Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,10 @@ Route::get('/', function () {
 Route::get('/landing',[welcomeController::class,'landing']);
 Route::get('/welcome', [welcomeController::class,'index']);
 Route::POST('/welcome', [welcomeController::class,'kirim']);
+
+// email receiver controller
+Route::get('/contact', function () {
+    return view('master');
+});
+
+Route::post('/send-email', [EmailController::class, 'sendEmail']);
