@@ -5,10 +5,10 @@
     <div class="container">
         <div class="about-content">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-7">
                     <div class="single-about-txt">
                         <h3>
-                            I am fullstack Web programmer.
+                            I am fullstack developer.
                         </h3>
                         <p>
                             As a recent graduate with a passion for web development, I am excited to embark on a career where I can
@@ -23,14 +23,14 @@
                                     <h3>phone</h3>
                                     <p>081369758958</p>
                                 </div>
-                            </div>exit
-                            <div class="col-sm-4">
+                            </div>
+                            <div class="col-sm-5">
                                 <div class="single-about-add-info">
                                     <h3>email</h3>
-                                    <p>ikhsanwarman</p>
+                                    <p>ikhsanwarman@gmail.com</p>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-3">
                                 <div class="single-about-add-info">
                                     <h3>website</h3>
                                     <p>www.snwrmn.com</p>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-offset-1 col-sm-5">
+                <div class="col-sm-offset-1 col-sm-4">
                     <div class="single-about-img">
                         <img src="assets/images/about/profile_image.jpg" alt="profile_image">
                         <div class="about-list-icon">

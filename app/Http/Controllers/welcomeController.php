@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class welcomeController extends Controller
 {
@@ -14,9 +16,18 @@ class welcomeController extends Controller
         return view ('welcome');
     }
     public function kirim(request $request){
-        $nama = $request ['nama'];
-        $alamat = $request ['alamat'];
-        $jk = $request ['jk'];
-        return view ('welcome',['nama'=>$nama, 'alamat'=>$alamat, 'jk' =>$jk]);
+        $request->validate([
+            'nama' => 'required|string',
+            'alamat' => 'required|string',
+        ]);
+
+        // Menyimpan data ke dalam tabel 'bio'
+        DB::table('bio')->insert([
+            'nama' => $request['nama'],
+            'alamat' => $request['alamat'],
+
+        ]);
+        // return response()->json(['message' => 'Data berhasil disimpan']);
+        return redirect()->back()->with('success', 'Data berhasil disimpan');
     }
 }

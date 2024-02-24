@@ -3,76 +3,75 @@
         <h2>education</h2>
     </div>
     <div class="container">
-        <div class="education-horizontal-timeline">
-            <div class="row">
-                <div class="col-sm-4">
+        <div class="experience-content">
+            <ul>
+                <li>
                     <div class="single-timeline-box fix">
-                        <div class="experience-time">
-                            <h2>2017 - 2023</h2>
-                            <h3>Bachelor <span>of </span> computer science</h3>
-                        </div><!--/.experience-time-->
-                        <div class="timeline-horizontal-border">
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            <span class="single-timeline-horizontal"></span>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <h4 class="title">
-                                    University of Sriwijaya
-                                </h4>
-                                <h5>Indralaya, South Sumatera</h5>
-                            </div><!--/.timeline-content-->
-                        </div><!--/.timeline-->
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="single-timeline-box fix">
+                                    <div class="experience-time">
+                                        <h2>2017 - 2023</h2>
+                                        <h3>Bachelor <span>of </span> computer science</h3>
+                                    </div><!--/.experience-time-->
+                                    <div class="timeline-horizontal-border">
+                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                        <span class="single-timeline-horizontal"></span>
+                                    </div>
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                University of Sriwijaya
+                                            </h4>
+                                            <h5>Indralaya, South Sumatera</h5>
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-timeline-box fix">
+                                    <div class="experience-time">
+                                        <h2>2017 - 2023</h2>
+                                        <h3>IPA</h3>
+                                    </div><!--/.experience-time-->
+                                    <div class="timeline-horizontal-border">
+                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                        <span class="single-timeline-horizontal"></span>
+                                    </div>
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                SMAN 1 Kota jambi
+                                            </h4>
+                                            <h5>Kota jambi, Jambi</h5>
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-timeline-box fix">
+                                    <div class="experience-time">
+                                        <h2>2012 - 2014</h2>
+                                        <h3>SMP</h3>
+                                    </div><!--/.experience-time-->
+                                    <div class="timeline-horizontal-border">
+                                        <i class="fa fa-circle" aria-hidden="true"></i>
+                                        <span class="single-timeline-horizontal"></span>
+                                    </div>
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                SMPN 17 Kota jambi
+                                            </h4>
+                                            <h5>Kota jambi, Jambi</h5>
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div>
+                            </div>
+                        </div> 
                     </div>
-                </div>
-                {{-- <div class="col-sm-4">
-                    <div class="single-horizontal-timeline">
-                        <div class="experience-time">
-                            <h2>2014 - 2017</h2>
-                            <h3>bachelor <span>of </span> computer science</h3>
-                        </div><!--/.experience-time-->
-                        <div class="timeline-horizontal-border">
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            <span class="single-timeline-horizontal"></span>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <h4 class="title">
-                                    university of north carolina
-                                </h4>
-                                <h5>north carolina, USA</h5>
-                                <p class="description">
-                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-                                </p>
-                            </div><!--/.timeline-content-->
-                        </div><!--/.timeline-->
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="single-horizontal-timeline">
-                        <div class="experience-time">
-                            <h2>2004 - 2008</h2>
-                            <h3>bachelor <span>of </span> creative design</h3>
-                        </div><!--/.experience-time-->
-                        <div class="timeline-horizontal-border">
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            <span class="single-timeline-horizontal spacial-horizontal-line
-                            "></span>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <h4 class="title">
-                                    university of bolton
-                                </h4>
-                                <h5>bolton, united kingdome</h5>
-                                <p class="description">
-                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-                                </p>
-                            </div><!--/.timeline-content-->
-                        </div><!--/.timeline-->
-                    </div>
-                </div> --}}
-            </div>
+                </li>
+            </ul>           
         </div>
     </div>
 

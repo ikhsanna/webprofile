@@ -1,8 +1,9 @@
 <?php
 
+use App\Http\Controllers\contactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\welcomeController;
-use App\Http\Controllers\EmailReceive_Controller;
+use App\Http\Controllers\postController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,4 +28,8 @@ Route::get('/contact', function () {
     return view('master');
 });
 
-Route::post('/send-email', [EmailController::class, 'sendEmail']);
+// form post contact-me
+Route::post('/sended', [contactController::class, 'send']);
+
+// testing
+Route::get('/form', [postController::class, 'isiform']);

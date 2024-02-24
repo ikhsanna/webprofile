@@ -18,6 +18,10 @@
         <input type="radio" name="jk" value='value'> perempuan <br>
         <input type="submit" value="submit">
     </form>
-    
+    @if (session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
 </body>
 </html>

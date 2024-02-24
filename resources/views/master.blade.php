@@ -70,7 +70,7 @@
 					<div class="col-md-12 text-center">
 						<div class="header-text">
 							<h2>hi <span>, im</span>  <br> Ikhsan <br> Warman <span>.</span>   </h2>
-							<p>web developer</p>
+							<p>web programmer</p>
 							<a href="https://drive.google.com/file/d/1Z15Bu72Q12Oej_vUwy69vWb_WOr4kJcE/view?usp=sharing" target="_blank" download>download resume</a>
 						</div><!--/.header-text-->
 					</div><!--/.col-->
@@ -84,24 +84,24 @@
 		@include('layout/about')
 		<!--about end -->
 		
-		<!--education start -->
-		@include('layout/education')
-		<!--education end -->
-
-		<!--skills start -->
-		@include('layout/skills')
-		<!--skills end -->
-
 		<!--experience start -->
 		@include('layout/experience')
 		<!--experience end -->
+		
+		<!--skills start -->
+		@include('layout/skills')
+		<!--skills end -->
+		
+		<!--education start -->
+		@include('layout/education')
+		<!--education end -->
 
 		<!--profiles start -->
 		{{-- @include('layout/profile') --}}
 		<!--profiles end -->
 
 		<!--portfolio start -->
-		@include('layout/portofolio')
+		{{-- @include('layout/portofolio') --}}
 		<!--portfolio end -->
 
 		<!--contact start -->
