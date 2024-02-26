@@ -8,7 +8,7 @@
                 <div class="col-md-offset-1 col-md-5 col-sm-6">
                     <div class="single-contact-box">
                         <div class="contact-form">
-                            <form action="/sended" method="POST">
+                            <form action="/" method="POST">
                                 @csrf
                                 <div class="row">
                                     <div class="col-sm-6 col-xs-12">
@@ -61,7 +61,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="single-contact-btn">
-                                        <a class="contact-btn" href="/form" role="button">form</a>
+                                        <a class="contact-btn" href="/landing" role="button">form</a>
                                     </div><!--/.single-single-contact-btn-->
                                 </div><!--/.col-->
                             </div><!--/.row-->

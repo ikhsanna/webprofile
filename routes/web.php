@@ -29,7 +29,7 @@ Route::get('/contact', function () {
 });
 
 // form post contact-me
-Route::post('/sended', [contactController::class, 'send']);
+Route::post('/', [contactController::class, 'send']);
 
 // testing
 Route::get('/form', [postController::class, 'isiform']);

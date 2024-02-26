@@ -26,7 +26,7 @@ class contactController extends Controller
             'subject' => $request['subject'],
             'message' => $request['message'],
         ]);
-        return redirect()->back()->with('success', 'Data berhasil disimpan');
+        return redirect()->back()->with('success', 'Data berhasil dikirim');
         // return response()->json(['message' => 'Data berhasil disimpan']);
     } 
 
