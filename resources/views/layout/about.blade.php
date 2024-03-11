@@ -50,6 +50,11 @@
                                     </a>
                                 </li><!-- / li -->
                                 <li>
+                                    <a href="https://github.com/ikhsanna" target="_blank">
+                                        <i class="fa fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </li><!-- / li -->
+                                <li>
                                     <a href="https://www.instagram.com/ikhsanw_4/" target="_blank">
                                         <i  class="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
@@ -59,7 +64,6 @@
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                 </li><!-- / li -->
-                                
                             </ul><!-- / ul -->
                         </div><!-- /.about-list-icon -->
 

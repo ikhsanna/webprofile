@@ -2,7 +2,7 @@
     <div class="container">
         <div class="hm-footer-copyright text-center">
             <p>
-                &copy; copyright yourname. design and developed by
+                &copy; copyright Ikhsan warman. design and developed by
             </p><!--/p-->
         </div><!--/.text-center-->
     </div><!--/.container-->

@@ -23,6 +23,7 @@ class welcomeController extends Controller
 
         // Menyimpan data ke dalam tabel 'bio'
         DB::table('bio')->insert([
+            
             'nama' => $request['nama'],
             'alamat' => $request['alamat'],
 
